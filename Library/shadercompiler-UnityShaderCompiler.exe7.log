@@ -1,0 +1,4 @@
+Base path: C:/Program Files/Unity/vita/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: compileComputeKernel
+  api=4 insize=18731 outsize=8925 ok=1
