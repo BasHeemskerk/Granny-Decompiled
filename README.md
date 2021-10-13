@@ -1,5 +1,20 @@
-# Granny-Decompiled
-Granny (unknown version, probably 1.0) decompiled back to Unity source code.
+# Granny PSVita
+A port of the mobile game Granny to the PSVita
 
-The game fully works and can run in the editor fully,
-although it may still have errors in some area's, though most of them are already found and removed.
+# Changelog 1.2.0 (final version)
+Enhancements;
+ - Some texture optimization.
+ - Fixed Granny teeth material.
+ - Added proper gate and splash image.
+ - Game became open-source
+
+Bug fixes;
+ - Fixed Granny being "stuck" (this was caused by a pole constantly dropping and thus continuously causing granny to lose track of the player)
+ - Items now properly disappear when picking them up.
+ - All main door locks function now.
+ - Closet in spider room can now be opened.
+ - Car is now closed.
+ - Fuel can now be picked up.
+
+# Game jolt
+Download: https://gamejolt.com/games/granny-psv/654317
