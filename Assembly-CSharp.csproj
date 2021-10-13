@@ -1,0 +1,1477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>6</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2E49E445-189E-37A2-2C92-5F10957D1EC1}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_2_19;UNITY_2018_2;UNITY_2018;ENABLE_AUDIO;ENABLE_CLOTH;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PACKMAN;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_PSVITA;UNITY_PSP2;UNITY_PSP2_API;UNITY_GFX_USE_PLATFORM_VSYNC;ENABLE_AUDIO_MANAGER_BASED_SCHEDULING;ENABLE_MICROPHONE;ENABLE_EVENT_QUEUE;ENABLE_NETWORK;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_IL2CPP;NET_4_6;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE;UNITY_POST_PROCESSING_STACK_V2;ENABLE_MONO</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\vita\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:\Program Files\Unity\vita\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Assembly-CSharp\adForceToBody.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AIfollow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationDebug.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\AnimationSpeed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\animationSpeed1.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\arrowFalls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\arrowHit.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\backgroundSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\backToMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BastuTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\batsTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BearTrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedButton2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedButton3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedEyes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedEyes2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedEyes3.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bedTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\BetweenScenesValues.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bomDestroyTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\bookanimationSpeed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Boundary.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\boxFall.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ButtonClicks.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CalculatePathTest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CameraRelativeControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\cameraSeeTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\camLampBlink.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CanJumpIn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CanJumpOut.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\carBackSensor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\carbumberTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\carFrontSensor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\carHitGranny.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CheckExitDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\checkIfEnabled.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\checkMapFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\checkplayerPos.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\checkTheCar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickBackButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickBeartrapMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickCloseButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickContinueButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickContinueButton2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickMainMenuButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickMoregamesButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickNoButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickOptionButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickOptionButtonIG.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ClickPlayButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickQuitButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickRemoveAdsButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickResumeButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickSkipButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\clickYesButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CloseOptionButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\closeOptionMenuIG.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\closePrisonDoorSimple.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CNJoystick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CNThrowableTouchpad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CNTouchpad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\coffinButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\coffinButtonBackyard.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\coffinEyes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CombineMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CombineMesh2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ConstraintAxis.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Controller3DExample.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ControllerScene.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ControlMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ControlState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CountBooks.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\CountKeys.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\crawlHoleTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\crawlVentilTrumma.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\deactivateSlendrina.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DeliverShotgunParts.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\destroyBats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\destroyCarDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestroyInMainScene.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\destroyInSeconds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\destroyObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\destroyTempNav.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DestroyText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\DiffEasyTextCheck.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\disableKinematic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\doorSlide.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\dropDownOptions.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\dropObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\enableDisableCarve.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\endDay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\endSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnemyAIGranny.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\EnemyEye.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExampleWheelController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\explode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\explodeTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ExtraLockPlaceLjud.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeBGsounds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeBGsoundsBR.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FadeBloodscreen.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadecrickers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeEndText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FadeHuntMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FadeNightSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeText1.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fadeUpDownTeddyMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FetchAds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\fillingFuel.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FirstPersonControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FlashlightButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\floor1Trigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\floor2Trigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\floor3Trigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FogOnOff.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FollowTransform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Footsteps.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FootstepScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\forwardCar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FPS.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\FPSControllerNEW.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\furnitureControlls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\gameOverScenes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\gameVolumeData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\gardeTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\generatorSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\giljotinTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\grannyClosePrisondoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrannyFootstep.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrannyGoneText.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrannyHear.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\grannyRestart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\grannySeePlayerTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\GrannySounds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\grannyStandCarTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\graphicsSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HandObjectFalls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\handObjectMoves.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HashIDs.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\haveObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\HealthBarStretch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\hideCrouchButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\hideSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\hideTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IfgarderobDoorOpens.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\IfHgarderobDoorOpens.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\imageEffectOnOff.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\inactivateButtons.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InGameVolume.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\insideCarButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\InvinsibleObj.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\Joystick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\KartongMakeSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\klockaRinger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\klockaTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LastPlayerSighting.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ljusstakeFallFloar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\lockerdoorscript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\LocksOnOff.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ManiacArmSmash.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\maniacBreath.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\maniacScream.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\manikinMove.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MomHead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MomTeleport.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\motorhuvLoss.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\mouseLook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\mouseSensitivity.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\movePlatta.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\moveTunnellock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\movHead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\MovoToNavMesh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\musicControll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NeedToGetOuttrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\noiceObjectFalls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\noPlayerColliding.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\NPCMovement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\objectFallFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectFallFloorDestroys.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObjectFallFloorMultiple.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\objectIsMoving.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\objectsFallFloorTavla.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\objectSoundAndDestroys.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ObliqueNear.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OccludeLights.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\onlySound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OnMouseOver.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseBackdoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseBaklucka.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseDoors.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseDoorV.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseDoorVind.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseGarde1.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseKitchenDoor1.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseKitchenDoor2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseKyl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseLeftOldDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseLoda1.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseLoda2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseMotorhuv.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseOldDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenCloseSmallDoors.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseVitrindoorL.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseVitrindoorR.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseVitrindoorVRL.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openCloseVitrindoorVRR.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openDoors.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OpenMetalBox.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\openSecretDoorTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\OrbGizmo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\particleCollider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PickUp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pickupFlashlight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\placePlanka.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\placePlankaHole.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\plankaHitSpot.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlanksMakesSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\plattaflyttas.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playEndMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerCaught.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerCaughtUnderBed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerCrawl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerDead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerFallingSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerHealthOwn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerInBeartrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerLandBR.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerLeaveSpider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerRelativeControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerResetFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerVevar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playerWalkForest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayerWindowController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayHouseLock.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PlayMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\playSkiva.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PrefabLightmapData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressBackButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pressBackButtonHelpmenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressCloseButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pressFueltankButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pressHelpButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressNoThanks.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pressOpenDoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\PressOptionButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\prisonDoorOpenClose.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\pushRigidbody.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\QuitApp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RagdollFade.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ragdollFallSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RagdollShotFade.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomDunkPlace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomKeyPlace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RandomKofotPlace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\removeBeartrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\resetDay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\resetFloorTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\resetSpider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\resolution.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\reverseCar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\rivNerTavla.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RollABall.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\RotationConstraint.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SaveSensitivityData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\seeBearTrap.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SeeDooropener.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\seeDoors.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SeeObjects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\selfDestructMomFly.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SensitivitySlider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\setGameQuality.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SetRotationHead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ShootArrow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\shootArrowButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\shootGun.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\shootGunButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\shootSpiderButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SidescrollControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\skruvplatta.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\skruvplattaOutside.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\slendrinaAppear.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SlowMotion.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SmoothFollow2D.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\soundEffects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\soundEffects2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\soundEffectsBeds.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\soundEffectsForest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\soundEffectsMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SoundEffectsPlayerInBed.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spawnRagdoll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spiderControll.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spiderFoodTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spiderHitPlayer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spiderSoundEffects.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\spiderTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\splashScreenStart.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\sprintScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\startEndScene.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\startMomHead.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\startNewDay.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\startTheCar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StartTrailer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SteamManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SteamScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\StopAllSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\stopGranny.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\stopMusik.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\stopRopeTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\stratFallTimer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\SwipeScript.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\tapcontrol.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\tavelbitTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\teddyFalls.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\teddyInVagga.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\teleportAwayTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TeleportMonster.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TestFPS.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextInactivate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TextInactive2.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\theEndCarEscape.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerBastuOff.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerBastuOn.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerBats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\triggerCloseGarderobdoor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\triggerFallFloor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\triggerForestSound.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerH.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerN.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerNightSoundHigh.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerNightSoundLow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerU.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\TriggerV.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\tryckplatta.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\turnOffFog.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\turnOffGeyes.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\UnityStandardAssets\Characters\FirstPerson\FirstPersonController_Egen.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\vevaBrunnsVev.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\vevarBrunnLjud.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\WaterMovement.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp\ZoomCamera.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\AlphaButtonClickMask.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\CameraFollowExample.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\CNAbstractController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\EventSystemChecker.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\ForcedReset.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\saveSensitivityData.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AccountID_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AddAppDependencyResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AddUGCDependencyResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AppId_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AppProofOfPurchaseKeyResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AssociateWithClanResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AudioPlayback_Status.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\AvatarImageLoaded_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\BroadcastUploadStart_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\BroadcastUploadStop_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\Callback.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CallbackDispatcher.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CallbackIdentities.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CallbackIdentityAttribute.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CallbackMsg_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CallResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CCallbackBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CCallbackBaseVTable.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CGameID.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CheckFileSignature_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ClanOfficerListResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ClientGameServerDeny_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ClientUnifiedMessageHandle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ComputeNewPlayerCompatibilityResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\Constants.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerActionSetHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerAnalogActionData_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerAnalogActionHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerDigitalActionData_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerDigitalActionHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ControllerMotionData_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CreateItemResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CSteamAPIContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CSteamGameServerAPIContext.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\CSteamID.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DeleteItemResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DepotId_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DlcInstalled_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DllCheck.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DownloadClanActivityCountsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\DownloadItemResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EAccountType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EAppOwnershipFlags.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EAppReleaseState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EAppType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EAuthSessionResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EBeginAuthSessionResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EBroadcastUploadResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EChatEntryType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EChatMemberStateChange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EChatRoomEnterResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EChatSteamIDInstanceFlags.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ECheckFileSignature.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EControllerActionOrigin.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EControllerSource.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EControllerSourceMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EDenyReason.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EFailureType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EFriendFlags.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EFriendRelationship.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EGamepadTextInputLineMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EGamepadTextInputMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EGCResults.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EHTMLKeyModifiers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EHTMLMouseButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EHTTPMethod.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EHTTPStatusCode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EItemPreviewType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EItemState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EItemStatistic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EItemUpdateStatus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELaunchOptionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELeaderboardDataRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELeaderboardDisplayType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELeaderboardSortMethod.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELeaderboardUploadScoreMethod.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELobbyComparison.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELobbyDistanceFilter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ELobbyType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EMarketingMessageFlags.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EMatchMakingServerResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EMouseCursor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EncryptedAppTicketResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ENotificationPosition.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EOverlayToStoreFlag.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EP2PSend.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EP2PSessionError.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EParentalFeature.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EPersonaChange.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EPersonaState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ERegisterActivationCodeResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ERemoteStoragePlatform.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ERemoteStoragePublishedFileVisibility.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EServerMode.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESNetSocketConnectionType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESNetSocketState.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESteamAPICallFailure.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESteamControllerLEDFlag.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESteamControllerPad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESteamItemFlags.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ESteamUserStatType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUGCMatchingUGCType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUGCQuery.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUGCReadAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUniverse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUserHasLicenseForAppResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUserRestriction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUserUGCList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EUserUGCListSortOrder.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EVoiceResult.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EVRHMDType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EVRScreenshotType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EWorkshopEnumerationType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EWorkshopFileAction.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EWorkshopFileType.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EWorkshopVideoProvider.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\EWorkshopVote.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FavoritesListAccountsUpdated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FavoritesListChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FileDetailsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendGameInfo_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendRichPresenceUpdate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendsEnumerateFollowingList_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendSessionStateInfo_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendsGetFollowerCount_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendsGroupID_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\FriendsIsFollowing_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameConnectedChatJoin_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameConnectedChatLeave_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameConnectedClanChatMsg_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameConnectedFriendChatMsg_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameLobbyJoinRequested_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameOverlayActivated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GamepadTextInputDismissed_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameRichPresenceJoinRequested_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameServer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameServerChangeRequested_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\gameserveritem_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GameWebCallback_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GCMessageAvailable_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GCMessageFailed_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GetAppDependenciesResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GetAuthSessionTicketResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GetOPFSettingsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GetUserItemVoteResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GetVideoURLResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GlobalAchievementPercentagesReady_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GlobalStatsReceived_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSClientAchievementStatus_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSClientApprove_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSClientDeny_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSClientGroupStatus_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSClientKick_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSGameplayStats_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSPolicyResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSReputation_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSStatsReceived_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSStatsStored_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\GSStatsUnloaded_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HAuthTicket.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HHTMLBrowser.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HServerListRequest.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HServerQuery.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HSteamPipe.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HSteamUser.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_BrowserReady_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_CanGoBackAndForward_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_ChangedTitle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_CloseBrowser_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_FileOpenDialog_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_FinishedRequest_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_HideToolTip_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_HorizontalScroll_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_JSAlert_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_JSConfirm_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_LinkAtPosition_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_NeedsPaint_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_NewWindow_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_OpenLinkInNewTab_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_SearchResults_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_SetCursor_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_ShowToolTip_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_StartRequest_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_StatusText_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_UpdateToolTip_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_URLChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTML_VerticalScroll_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTTPCookieContainerHandle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTTPRequestCompleted_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTTPRequestDataReceived_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTTPRequestHandle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\HTTPRequestHeadersReceived_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\InteropHelp.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\IPCFailure_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\IPCountry_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingPingResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingPlayersResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingRulesResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ISteamMatchmakingServerListResponse.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ItemInstalled_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\JoinClanChatRoomCompletionResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LeaderboardEntry_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LeaderboardFindResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LeaderboardScoresDownloaded_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LeaderboardScoreUploaded_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LeaderboardUGCSet_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LicensesUpdated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyChatMsg_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyChatUpdate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyCreated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyDataUpdate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyEnter_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyGameCreated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyInvite_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyKicked_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LobbyMatchList_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\LowBatteryPower_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ManifestId_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MatchMakingKeyValuePair_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MicroTxnAuthorizationResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MMKVPMarshaller.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteToFront_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteWillActivate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerRemoteWillDeactivate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerSelectsPlaylistEntry_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerSelectsQueueEntry_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsLooped_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPause_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlay_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayingRepeatStatus_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayNext_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsPlayPrevious_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsShuffled_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWantsVolume_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\MusicPlayerWillQuit_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\NativeMethods.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\NewLaunchQueryParameters_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\NumberOfCurrentPlayers_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\P2PSessionConnectFail_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\P2PSessionRequest_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\P2PSessionState_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\Packsize.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\PersonaStateChange_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\PlaybackStatusHasChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\PublishedFileId_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\PublishedFileUpdateHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RegisterActivationCodeResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncedClient_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncedServer_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncProgress_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageAppSyncStatusCheck_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageDeletePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageDownloadUGCResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumeratePublishedFilesByUserActionResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserPublishedFilesResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserSharedWorkshopFilesResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateUserSubscribedFilesResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageEnumerateWorkshopFilesResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileReadAsyncComplete_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileShareResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageFileWriteAsyncComplete_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageGetPublishedFileDetailsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageGetPublishedItemVoteDetailsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileDeleted_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileSubscribed_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileUnsubscribed_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishedFileUpdated_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishFileProgress_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStoragePublishFileResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageSetUserPublishedFileActionResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageSubscribePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUnsubscribePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUpdatePublishedFileResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUpdateUserPublishedItemVoteResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoteStorageUserVoteDetails_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoveAppDependencyResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\RemoveUGCDependencyResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ScreenshotHandle.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ScreenshotReady_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ScreenshotRequested_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\servernetadr_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SetPersonaNameResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SetUserItemVoteResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SNetListenSocket_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SNetSocket_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SocketStatusCallback_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\StartPlaytimeTrackingResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAPI.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAPI_CheckCallbackRegistered_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAPICall_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAPICallCompleted_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAPIWarningMessageHook_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAppInstalled_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAppList.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamApps.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamAppUninstalled_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamClient.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamEncryptedAppTicket.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamFriends.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerApps.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerClient.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerHTTP.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerInventory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerNetworking.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerStats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerUGC.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamGameServerUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamHTMLSurface.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamHTTP.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventory.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventoryDefinitionUpdate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventoryEligiblePromoItemDefIDs_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventoryFullUpdate_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventoryResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamInventoryResultReady_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamItemDef_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamItemDetails_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamItemInstanceID_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamLeaderboard_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamLeaderboardEntries_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamMatchmaking.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamMatchmakingServers.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamMusic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamMusicRemote.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamNetworking.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamParamStringArray_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamParentalSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamParentalSettingsChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamRemoteStorage.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamScreenshots.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamServerConnectFailure_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamServersConnected_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamServersDisconnected_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamShutdown_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUGC.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUGCDetails_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUGCQueryCompleted_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUGCRequestUGCDetailsResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUnifiedMessages.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUnifiedMessagesSendMethodResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUser.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUserStats.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamUtils.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SteamVideo.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\StopPlaytimeTrackingResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\StoreAuthURLResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\SubmitItemUpdateResult_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UGCFileWriteStreamHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UGCHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UGCQueryHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UGCUpdateHandle_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserAchievementIconFetched_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserAchievementStored_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserFavoriteItemsListChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserStatsReceived_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserStatsStored_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\UserStatsUnloaded_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\ValidateAuthTicketResponse_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\Version.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\Steamworks\VolumeHasChanged_t.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\FirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\HeadBob.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\MouseLook.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\FirstPerson\RigidbodyFirstPersonController.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\ThirdPerson\AICharacterControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\ThirdPerson\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Characters\ThirdPerson\ThirdPersonUserControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\AxisTouchButton.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\ButtonHandler.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\CrossPlatformInputManager.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\InputAxisScrollbar.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\Joystick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\MobileControlRig.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\MobileInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\PlatformSpecific\StandaloneInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TiltInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\TouchPad.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\CrossPlatformInput\VirtualInput.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\AfterburnerPhysicsForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExplosionFireAndDebris.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\Explosive.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ExtinguishableParticleSystem.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\FireLight.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\Hose.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\SmokeParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Effects\WaterHoseParticles.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ActivateTrigger.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMobileShaderSwitch.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\AutoMoveAndRotate.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CameraRefocus.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\CurveControlledBob.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DragRigidbody.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\DynamicShadowSettings.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FollowTarget.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FOVKick.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\FPSCounter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\LerpControlledBob.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ObjectResetter.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\ParticleSystemDestroyer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\PlatformSpecificContent.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleActivatorMenu.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SimpleMouseRotator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\SmoothFollow.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectActivator.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\TimedObjectDestructor.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointCircuit.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Utility\WaypointProgressTracker.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Vehicles\Ball\Ball.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Vehicles\Ball\BallUserControl.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Displace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\GerstnerDisplace.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\MeshContainer.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\PlanarReflection.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\SpecularLighting.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\Water.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBase.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterBasic.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterQuality.cs" />
+     <Compile Include="Assets\Scripts\Assembly-CSharp-firstpass\UnityStandardAssets\Water\WaterTile.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\FaceInfo.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\FastAction.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\FontAssetCreationSettings.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\FontStyles.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\GlyphValueRecord.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\KerningPair.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\KerningTable.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\MaskingTypes.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\MaterialReferenceManager.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextAlignmentOptions.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextContainer.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextContainerAnchors.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextMeshPro.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextMeshProUGUI.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextOverflowModes.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TextureMappingOptions.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Asset.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ColorGradient.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Compatibility.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_DefaultControls.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Dropdown.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_FontAsset.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_FontWeights.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Glyph.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_InputField.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_InputValidator.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_LineInfo.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_MaterialManager.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_MeshInfo.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_ScrollbarEventHandler.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SelectionCaret.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Settings.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Sprite.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SpriteAnimator.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SpriteAsset.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Style.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_StyleSheet.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SubMesh.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_SubMeshUI.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_Text.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextElement.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextInfo.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_TextUtilities.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMP_UpdateManager.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMPro_EventManager.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\TMPro_ExtensionMethods.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\VertexGradient.cs" />
+     <Compile Include="Assets\Scripts\Unity.TextMeshPro\TMPro\VertexSortingOrder.cs" />
+     <None Include="Assets\Resources\shaders\uber.shader" />
+     <None Include="Assets\Resources\shaders\depthoffield.shader" />
+     <None Include="Assets\Resources\shaders\lutgen.shader" />
+     <None Include="Assets\Resources\shaders\graingen.shader" />
+     <None Include="Assets\Resources\shaders\bloom.shader" />
+     <None Include="Assets\Resources\shaders\builtindebugviews.shader" />
+     <None Include="Assets\Shader\OutlinedSilhouetted Diffuse.shader" />
+     <None Include="Assets\Resources\shaders\ambientocclusion.shader" />
+     <None Include="Assets\Shader\MobileTransparentVertex Color.shader" />
+     <None Include="Assets\Resources\shaders\blit.shader" />
+     <None Include="Assets\Resources\shaders\fog.shader" />
+     <None Include="Assets\Resources\shaders\fxaa.shader" />
+     <None Include="Assets\Resources\shaders\eyeadaptation.shader" />
+     <None Include="Assets\Resources\shaders\motionblur.shader" />
+     <None Include="Assets\Resources\shaders\screenspacereflection.shader" />
+     <None Include="Assets\Shader\CustomInvisibleMask.shader" />
+     <None Include="Assets\Resources\shaders\taa.shader" />
+ <Reference Include="UnityEditor.StandardEvents">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro.Editor">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.PackageManagerUI.Editor">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Editor">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/Unity.Postprocessing.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Postprocessing.Runtime">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.TextMeshPro">
+ <HintPath>D:/Unity Projects/Granny vita/Granny-Decompiled-vita/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AIModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ARModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ARModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AccessibilityModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AccessibilityModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AnimationModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AnimationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AssetBundleModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.AudioModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.AudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.BaselibModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.BaselibModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ClothModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ClothModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CloudWebServicesModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.CloudWebServicesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.CoreModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.CoreModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.DirectorModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.DirectorModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FacebookModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.FacebookModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.FileSystemHttpModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.FileSystemHttpModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GameCenterModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.GameCenterModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GridModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.GridModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HotReloadModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.HotReloadModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.IMGUIModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.IMGUIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ImageConversionModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ImageConversionModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.InputModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.InputModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.JSONSerializeModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.JSONSerializeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.LocalizationModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.LocalizationModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PSVitaModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.PSVitaModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticleSystemModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ParticleSystemModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ParticlesLegacyModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ParticlesLegacyModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PerformanceReportingModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.PerformanceReportingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PhysicsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.PhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Physics2DModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.Physics2DModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ProfilerModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ProfilerModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.ScreenCaptureModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.ScreenCaptureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SharedInternalsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.SharedInternalsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteMaskModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.SpriteMaskModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpriteShapeModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.SpriteShapeModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StreamingModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.StreamingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StyleSheetsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.StyleSheetsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SubstanceModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.SubstanceModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TLSModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TLSModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TerrainModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TerrainPhysicsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TextRenderingModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TextRenderingModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TilemapModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TilemapModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.TimelineModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.TimelineModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UIModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UIElementsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UIElementsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UNETModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UNETModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UmbraModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UmbraModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityAnalyticsModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityConnectModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityConnectModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityWebRequestModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VRModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.VRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VehiclesModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.VehiclesModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VideoModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.VideoModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.WindModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.WindModule.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.XRModule">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/PlaybackEngines/PSP2Player/Tools/UnityEngine.XRModule.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Locator">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Timeline">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.GoogleAudioSpatializer">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.SpatialTracking">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Users/bashe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.StandardEvents">
+ <HintPath>C:/Users/bashe/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="mscorlib">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
+ </Reference>
+ <Reference Include="System">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Core">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.Linq">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Numerics.Vectors">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.CSharp">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll</HintPath>
+ </Reference>
+ <Reference Include="Microsoft.Win32.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="netstandard">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll</HintPath>
+ </Reference>
+ <Reference Include="System.AppContext">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Concurrent">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.NonGeneric">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Collections.Specialized">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Annotations">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.EventBasedAsync">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ComponentModel.TypeConverter">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Console">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data.Common">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Contracts">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Debug">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.FileVersionInfo">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Process">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.StackTrace">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TextWriterTraceListener">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.Tools">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Diagnostics.TraceSource">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Drawing.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Dynamic.Runtime">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Calendars">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Globalization.Extensions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Compression.ZipFile">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.DriveInfo">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.FileSystem.Watcher">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.IsolatedStorage">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.MemoryMappedFiles">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.Pipes">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll</HintPath>
+ </Reference>
+ <Reference Include="System.IO.UnmanagedMemoryStream">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Expressions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Parallel">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Linq.Queryable">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http.Rtc">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NameResolution">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.NetworkInformation">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Ping">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Requests">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Security">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Sockets">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebHeaderCollection">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets.Client">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.WebSockets">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ObjectModel">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.ILGeneration">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Emit.Lightweight">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Extensions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Reflection.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Reader">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.ResourceManager">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Resources.Writer">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.CompilerServices.VisualC">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Extensions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Handles">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Numerics">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Formatters">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Json">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Runtime.Serialization.Xml">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Claims">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Algorithms">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Csp">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Encoding">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Cryptography.X509Certificates">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.Principal">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Security.SecureString">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Duplex">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Http">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.NetTcp">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Primitives">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ServiceModel.Security">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.Encoding.Extensions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Text.RegularExpressions">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Overlapped">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Tasks.Parallel">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Thread">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.ThreadPool">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading.Timer">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.ValueTuple">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.ReaderWriter">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XDocument">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlDocument">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XmlSerializer">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Xml.XPath.XDocument">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityScript.Lang">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll</HintPath>
+ </Reference>
+ <Reference Include="Boo.Lang">
+ <HintPath>C:/Program Files/Unity/vita/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

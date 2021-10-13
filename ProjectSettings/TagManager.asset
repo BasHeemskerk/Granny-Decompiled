@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - giljocutarea
+  - golv
+  - shotgun
+  - topplocksskruv
+  - granny
+  - carbattery
+  - avbitare
+  - exitkey
+  - shotgunp3
+  - ammo
+  - bedPlayer
+  - book
+  - vapenskopdoor
+  - meat
+  - hammer
+  - tb2
+  - garde1Closed
+  - brunnsvevpickup
+  - shotgunp1
+  - kitchenDoor1Closed
+  - plankavind
+  - innerdoorLocked
+  - grus
+  - innerdoorClosed
+  - window
+  - carkey
+  - vitrindoorVRRclosed
+  - vitrindoorVRLclosed
+  - wrench
+  - arrow
+  - playhousekey
+  - tavelspak
+  - sparkplug
+  - safekey
+  - screw2
+  - lockmotor
+  - carbatteryPlace
+  - melon
+  - shotgunp2
+  - kugg2
+  - screwout3
+  - sparkplugPlace
+  - tb4
+  - kitchenDoor2Closed
+  - stoprope
+  - spak
+  - loda1Closed
+  - weaponkey
+  - screw1
+  - hanglockkey
+  - resetfloor
+  - specialkey
+  - kugg1
+  - planka
+  - loda2Closed
+  - tb3
+  - topplockPlace
+  - Spider
+  - gascan
+  - message
+  - topplock
+  - shootbutton
+  - teddy
+  - battery
+  - screwout2
+  - kylClosed
+  - spidernest
+  - bookplace
+  - camera
+  - bastuspakOff
+  - gameController
+  - dpadlockCode
+  - stortkugg
+  - hanglockgarage
+  - exitdoor
+  - platevind
+  - screwout4
+  - bomdestroyer
+  - secretdoorbutton
+  - bluekabelcellar
+  - fanhurt
+  - vind2lock
+  - tb1
+  - garageport
+  - bakluckaLocked
+  - armborst
+  - brunn
+  - motorhuvClosed
+  - fueltankPlace
+  - screwout1
+  - smalldoorClosed
+  - brokencardoor
+  - vitrindoorRclosed
+  - vitrindoorLclosed
+  - safedoor
+  - brunnsvev
+  - car
+  - bluekabelvind
+  - screwdriver
+  - vas2
+  - vas
+  - handskfack
+  - bluekabel
+  - phpadlock
+  - giljotinklinga
+  - giljotinspak
+  - batteryholder
+  - tavelbitar
+  - hanglock
+  - bastubomUppe
+  - dpadlock
+  - microdoor
+  - spiderAttack
+  - noiseobject
+  - plankawalk
+  - beartrap
+  - smalldoorOpen
+  - innerdoorOpen
+  - BearTrapActivated
+  - garde1Open
+  - loda2Open
+  - vitrindoorRopen
+  - vitrindoorLopen
+  - vitrindoorVRLopen
+  - vitrindoorVRRopen
+  - kitchenDoor1Open
+  - kitchenDoor2Open
+  - kylOpen
+  - motorhuvOpen
+  - bakluckaOpen
+  - bastudoorLocked
+  - bastubomNere
+  - bastuspakOn
+  - loda1Open
+  - prisondoorlocked
+  - sprint1
+  - sprint2
+  - bakluckaClosed
+  - Fire
+  - flashlight
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - PostProcessing
+  - player
+  - items
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,74 @@
+Base path: C:/Program Files/Unity/vita/Unity/Editor/Data
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: compileSnippet
+  api=4 type=0 insize=778614 outsize=6830 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP LOD_FADE_PERCENTAGE GEOM_TYPE_BRANCH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=778614 outsize=1094 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP GEOM_TYPE_BRANCH pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=778614 outsize=11986 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP LOD_FADE_PERCENTAGE GEOM_TYPE_LEAF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=778614 outsize=1182 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP GEOM_TYPE_LEAF pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=778614 outsize=7298 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP LOD_FADE_PERCENTAGE GEOM_TYPE_FROND pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=778614 outsize=1182 kw=UNITY_PASS_FORWARDBASE DIRECTIONAL EFFECT_BUMP GEOM_TYPE_FROND pd=UNITY_ENABLE_REFLECTION_BUFFERS UNITY_NO_SCREENSPACE_SHADOWS UNITY_PBS_USE_BRDF3 SHADER_API_DESKTOP UNITY_COLORSPACE_GAMMA UNITY_LIGHTMAP_RGBM_ENCODING ok=1
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
+Cmd: initializeCompiler
