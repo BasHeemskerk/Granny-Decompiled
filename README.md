@@ -1,5 +1,6 @@
-FOR EVERYONE DOWNLOADING THIS REPOSITORY:
-Only the PSVita repository has bugfixes, please download that repository if you want working source code!
+FOR EVERYONE DOWNLOADING THIS BRANCH:
+
+Only the PSVita branch has bugfixes, please download that branch if you want working source code!
 
 # Granny-Decompiled
 Granny (unknown version, probably 1.0) decompiled back to Unity source code.
